@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    place-content:center;
+    text-align: center;
+}
+.outer-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 37.5rem;
+    width: 21.875rem;
+}
+.insta-logo{
+    background-image: url("ig.png");
+    background-size: cover;
+    height: 4.688rem;
+    width:10.938rem;
+    margin-top: 1.125rem;
+}
+.submit{
+    width:16.938rem;
+    height: 2.5rem;
+    background-color: #fafafa;
+    border-radius: 0.625rem;
+    margin-top: 65px;
+    background-color: #67b5fa;
+    color: white ;
+    font-weight: 700;
+    border: 2px solid;
+}
+.form{
+    margin-top: 60px;
+    
+}
+.details{
+    width: 16.25rem;
+    height: 2.25rem;
+    background-color: #fafafa;
+    border-radius: 0.313rem;
+    margin-bottom: 0.313rem;
+    padding-left: 0.625rem;
+    border: none;
+}
+.password{
+    color: #67b5fa;
+    position: relative;
+    left: 4.688rem;
+    margin-top: 0.625rem;
+    text-decoration: none;
+}
+.sign-up{
+    display: flex;
+    margin-top: 40px;
+}
+.sign-up a{
+    text-decoration: none;
+    color: #67b5fa;
+}
+i{
+    font-size: 1.25rem;
+}
