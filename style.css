@@ -1,0 +1,97 @@
+*{
+    font-style: "system-ui", "Segoe UI", Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    place-content:center;
+    text-align: center;
+}
+
+.outer-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 37.5rem;
+    width: 21.875rem;
+    margin-top: 3.75rem;
+    
+}
+.insta-logo{
+    background-image: url("ig.png");
+    background-size: cover;
+    height: 4.688rem;
+    width:10.938rem;
+    margin-top: 1.125rem;
+}
+.submit{
+    width:16.938rem;
+    height: 2.5rem;
+    background-color: #fafafa;
+    border-radius: 0.625rem;
+    margin-top: 4.063rem;
+    background-color: #67b5fa;
+    color: white ;
+    font-weight: 700;
+    border: 2px solid;
+}
+.form{
+    margin-top: 60px;
+    
+}
+.details{
+    width: 16.25rem;
+    height: 2.25rem;
+    background-color: #fafafa;
+    border-radius: 0.313rem;
+    margin-bottom: 0.313rem;
+    padding-left: 0.625rem;
+    border: none;
+}
+.password{
+    color: #67b5fa;
+    position: relative;
+    left: 4.688rem;
+    margin-top: 0.625rem;
+    text-decoration: none;
+}
+.sign-up{
+    display: flex;
+    margin-top: 2.5rem;
+    font-weight: 100;
+}
+.sign-up a{
+    text-decoration: none;
+    color: #67b5fa;
+}
+i{
+    font-size: 1.25rem;
+}
+@media (min-width:500px){
+     .outer-box{
+        border: 1px solid grey;
+        position: relative;
+        left: 0.625rem;
+     }
+     
+     .side-img{
+        background-image: url("insta-side-img.png");
+        background-size: cover;
+        height: 600px;
+        width: 310px;
+        margin-top: 60px;
+        border: 2px solid black;
+        border-radius: 1.563rem;
+     }
+     .combined-box{
+        margin-top: 0.625rem;
+        display: flex;
+        justify-content: space-around;
+        align-items:flex-start;
+        /* border: 2px solid black; */
+        height: 85vh;
+        width: 85vh;  
+    }
+}
